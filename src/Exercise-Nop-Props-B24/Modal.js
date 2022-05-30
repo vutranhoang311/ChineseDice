@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import styles from "./Modal.module.css";
 export default class Modal extends Component {
   render() {
     const { product } = this.props;
@@ -11,7 +12,7 @@ export default class Modal extends Component {
         aria-hidden="true"
       >
         <div className="modal-dialog">
-          <div className="modal-content">
+          <div className={`${styles.darkTheme} modal-content`}>
             <div className="modal-header">
               <h5 className="modal-title" id="exampleModalLabel">
                 {product.name}
@@ -23,11 +24,11 @@ export default class Modal extends Component {
                 aria-label="Close"
               />
             </div>
-            <div className="modal-body">
-              <div className="card">
+            <div className={`${styles.darkTheme} modal-body`}>
+              <div className={`${styles.darkTheme} card`}>
                 <img
                   src={product.image}
-                  className="card-img-top"
+                  className={`${styles.darkTheme} ${styles.img} card-img-top`}
                   alt={product.name}
                 />
                 <div className="card-body">

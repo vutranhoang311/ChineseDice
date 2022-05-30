@@ -7,7 +7,7 @@ export default class ProductList extends Component {
     return (
       <div className="row">
         {products.map((item) => (
-          <div className="col-sm-3 my-2" key={item.id}>
+          <div className="col-sm-4 my-2" key={item.id}>
             <ProductItem
               product={item}
               onClick={onClick}

@@ -1,0 +1,14 @@
+.darkTheme {
+  padding: 0.5rem;
+  background-color: #272d40;
+  color: #fff;
+  border: none;
+}
+
+.img {
+  object-fit: cover;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  cursor: pointer;
+  width: 80% !important;
+}
