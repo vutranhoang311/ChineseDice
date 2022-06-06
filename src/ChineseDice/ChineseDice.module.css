@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Pony";
+  src: local("Pony"), url("./Pony.ttf") format("truetype");
+  font-weight: bold;
+}
+.background {
+  font-family: "Pony";
+  background-image: url("/public/img/bgGame.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+label {
+  width: 100px !important;
+  height: 100px !important;
+  font-size: 2rem !important;
+  line-height: 85px !important;
+}
