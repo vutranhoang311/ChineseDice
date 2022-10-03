@@ -1,8 +1,8 @@
-import ShoeShop from "./Exercise-Nop-Props-B24/ShoeShop";
+import ChineseDice from "./ChineseDice/ChineseDice";
 function App() {
   return (
     <div className="App">
-      <ShoeShop />
+      <ChineseDice />
     </div>
   );
 }

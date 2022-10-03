@@ -6,10 +6,6 @@ import { combineReducers } from "redux";
 import ChineseDiceReducer from "./ChineseDiceReducer";
 
 const rootReducer = combineReducers({
-  // count: countReducer,
-  // color: colorReducer,
-  // cartRedux: cartReduxReducer,
-  // userManagement: userReducer,
   chineseDice: ChineseDiceReducer,
 });
 
